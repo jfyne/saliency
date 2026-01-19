@@ -1,7 +1,7 @@
 # Download and setup the fixationadd1000 dataset for fine-tuning
 setup-fixationadd1000:
     mkdir -p data/fixationadd1000
-    gcloud storage rsync gs://hmm-ml-models/fixation/add1000.tar.gz .
+    gcloud storage cp gs://hmm-ml-models/fixation/add1000.tar.gz .
     tar -xzf add1000.tar.gz -C data/fixationadd1000
     rm -r data/fixationadd1000/saliency || true
     mv data/fixationadd1000/fixation data/fixationadd1000/saliency

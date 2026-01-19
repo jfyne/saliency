@@ -49,3 +49,9 @@ Weights are saved with the device suffix to identify format:
 - `model_salicon_cpu.weights.h5` - CPU/channels_last
 - `model_salicon_tpu.weights.h5` - TPU/channels_last
 - `model_salicon_metal.weights.h5` - Metal/channels_last
+
+## Related Topics
+
+- [Apple Silicon](apple-silicon.md) - Metal GPU training and cross-platform deployment
+- [Cloud Training](cloud-training.md) - Vertex AI GPU/TPU training
+- [Architecture](architecture.md) - Model structure and device configuration
